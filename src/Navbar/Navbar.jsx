@@ -4,7 +4,7 @@ import './Navbar.css'
 import logo from '../assets/redux-logo.png'
 
 const Navbar = () => {
-    const [showNavbar, setShowNavbar] = useState(true);
+    const [showNavbar, setShowNavbar] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
