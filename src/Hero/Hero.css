@@ -8,6 +8,7 @@
 }
 
 h1 {
+    min-width: 500px;
     padding: 0;
     margin: 0;
     display: flex;
@@ -34,4 +35,12 @@ p {
 .img-2 {
     position: relative;
     top: -1rem;
+}
+
+@media screen and (max-width: 660px) {
+    h1 {
+        min-width: 200px;
+    }
+
+
 }
