@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+    padding: 0 3rem;
+}
+
+.navbar.sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -6rem;
+}
+
+.navbar-left {
+    min-width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-left > a {
+    text-decoration: none;
+    color:#0c0c0c;
+    font-family: "Poppins Light", sans-serif;
+}
+
+.navbar-right {
+
+}
