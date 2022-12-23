@@ -4,6 +4,7 @@ Static web application with custom navbar.
 
 ## Project Screenshots
 ![navbar_Image_1](https://i.postimg.cc/85cdGmPY/Screenshot-1.png)
+![navbar_Image_2](https://i.postimg.cc/hPd7HPbn/Screenshot-1.png)
 
 
 ## Demo Application
